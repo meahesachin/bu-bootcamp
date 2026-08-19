@@ -1,0 +1,2 @@
+So far, I've learnt the basic of Java programming, how control flows work, some data structures like ArrayList, HashMap, HashSet, etc
+I also learnt the basics of Git and GitHub. We created sample code to practice what we learnt.
