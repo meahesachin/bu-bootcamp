@@ -43,4 +43,11 @@ public class ContactTest {
     //Check that toString returns a string that contains the phone number of the contact set in the constructor
     assertTrue(c.toString().contains("555 0101"));
   }
+
+  @Test
+    void toString_checkDifferentObjectsWithSameName() {
+        //Test that two different Contact objects with the same name are independent (changing one does not affect the other)       
+        Contact c2 = new Contact("Ada Lovelace", "+1 617 555 0102");
+        assertNotEquals(c.toString(), c2.toString());   
+    }
 } 
